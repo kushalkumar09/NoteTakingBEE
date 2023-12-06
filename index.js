@@ -23,7 +23,7 @@ app.use("/api/v1", createNote);
 
 // default route
 app.get("/", (req, res) => {
-  res.send("<h1>home page</h1>");
+  res.send("<h1>home page </h1>");
 });
 
 app.listen(Port, () => {
